@@ -13,7 +13,7 @@ The back end is using **GraphQL** server on **Nodejs** using **Express** to desc
 
 **Tip 1**: Use **Graphiql** tool from the browser to simulate making queries from the front end to the GraphQL server.
 
-**Tip 2**: You can change the data source for the app by editing the variable [schema] in the file [./server/app.js] and use either local or remote data source, default is local.
+**Tip 2**: You can change the data source for the app by editing the variable **[schema]** in the file **[./server/app.js]** and use either local or remote data source, default is local.
 
 ## Downloading GraphQL-Client-Server-Sample-Code
 
@@ -48,7 +48,7 @@ Make sure to install the following dependencies:
 
 ## Usage
 
-You need two instances of cmd here.
+You need two instances of cmd:
 
 ![](./client/public/images/terminal.jpg?raw=true)
 
