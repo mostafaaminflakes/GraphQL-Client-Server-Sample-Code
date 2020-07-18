@@ -17,6 +17,7 @@ const app = express();
 const schema = require("./schema/schema_remote");
 // mongoose ORM for remote MongoDB
 const mongoose = require("mongoose");
+// Change <username>, <password> and <dbname> to your credentials
 //const uri = "mongodb+srv://<username>:<password>@cluster0-4rff6.mongodb.net/<dbname>?retryWrites=true&w=majority";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.once("open", () => {

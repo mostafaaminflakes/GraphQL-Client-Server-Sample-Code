@@ -1,4 +1,5 @@
 # GraphQL-Client-Server-Sample-Code
+<<<<<<< HEAD
 
 ![](./client/public/images/graphiql.jpg?raw=true)
 
@@ -71,3 +72,6 @@ Then open your browser at [localhost:4000/graphql]
 ```
 
 Then open your browser at [localhost:3000]
+=======
+This example is using GraphQL to store, retrieve and manipulate books and authors data.
+>>>>>>> 19b80ee1d287954a2f64330b401d0d6a7320001f
