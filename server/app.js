@@ -10,19 +10,19 @@ const app = express();
 // remote: using mongoose models to define data stored in remote MongoDB instance
 
 // 01 - local
-//const schema = require("./schema/schema_local");
+const schema = require("./schema/schema_local");
 // End 01 - local
 
 // 02 - remote
-const schema = require("./schema/schema_remote");
+//const schema = require("./schema/schema_remote");
 // mongoose ORM for remote MongoDB
-const mongoose = require("mongoose");
+//const mongoose = require("mongoose");
 // Change <username>, <password> and <dbname> to your credentials
 //const uri = "mongodb+srv://<username>:<password>@cluster0-4rff6.mongodb.net/<dbname>?retryWrites=true&w=majority";
-mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-mongoose.connection.once("open", () => {
-    console.log("Connected to remote database!");
-});
+//mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+//mongoose.connection.once("open", () => {
+//    console.log("Connected to remote database!");
+//});
 // End 02 - remote
 
 // Allow [Cross-Origin Resource Sharing] to let the server accepts requests from another server [client]
