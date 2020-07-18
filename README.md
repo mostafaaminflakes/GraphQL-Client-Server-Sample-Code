@@ -1,6 +1,6 @@
 # GraphQL-Client-Server-Sample-Code
 
-![](./client/public/images/graphiql.jpg?raw=true)
+![](./client/public/images/graphql.jpg?raw=true)
 
 This example is using **GraphQL** to store, retrieve and manipulate books and authors data.
 
@@ -52,7 +52,7 @@ You need two instances of cmd here.
 
 ![](./client/public/images/terminal.jpg?raw=true)
 
-*1. To run the server:*
+_1. To run the server:_
 
 ```bash
    cd path/to/server/folder/
@@ -61,9 +61,7 @@ You need two instances of cmd here.
 
 Then open your browser at [localhost:4000/graphql]
 
-
-
-*2. To run the client:*
+_2. To run the client:_
 
 ```bash
    cd path/to/client/folder/
