@@ -44,7 +44,7 @@ Make sure to install the following dependencies:
 -   graphql
 -   lodash
 
-**Tip**: You may run **[npm init]** from inside both client and server folders to install the required dependencies.
+**Tip**: You may run **[npm install]** from inside both client and server folders to install the required dependencies.
 
 ## Usage
 
